@@ -22,14 +22,14 @@ public class Example {
     
     public static void main(String[] args) throws IOException {
         // -------------------------------------------------------------------------------------
-        final String input_path = "img/Caves.png";
+        final String input_path = "img/Rocks2.png";
         final int seed = (int)(System.currentTimeMillis());
         final int display_scale = 4;
         final int output_width = 128;
         final int output_height = 128;
         final int failure_limit = 100;
-        final boolean allow_permutation = true;
-        final boolean wrap_around = false;
+        final boolean allow_permutation = false; // allow rotations and reflections of patterns
+        final boolean wrap_around = false; // output edges connected
         // -------------------------------------------------------------------------------------
         final int[][] output_data = new int[output_height][output_width];
         final int[][] training_data = from_buffered_image(load_buffered_image(input_path));

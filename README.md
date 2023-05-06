@@ -43,4 +43,25 @@ A small amount of noise is introduced to cells' entropy (possibly better rng)
 ![rooms](https://github.com/heathensoft/WaveFunctionCollapse/blob/main/gif/wfc_rooms.gif?raw=true)
 ![flowers](https://github.com/heathensoft/WaveFunctionCollapse/blob/main/gif/wfc_flowers.gif?raw=true)
 
-# Sources
+
+### Test Example
+
+The Example comes with visuals you can play around with:
+* Download or clone.
+* Run Example main (chose input image, adjust some values and play around)
+
+But the main code is in the wfc package. WFC.java is what you are looking for
+
+
+
+
+
+### Sources
+
+* [Great explanation and implementation (Rust)](https://www.gridbugs.org/wave-function-collapse/) (My main source)
+* [mxgmn's original Wave Function Collapse github repository (C#)](https://github.com/mxgmn/WaveFunctionCollapse)
+* [Wave function collapse and Model Synthesis](https://www.youtube.com/watch?v=zIRTOgfsjl0&t=1167s&ab_channel=DVGen) (video)
+* [Superpositions, Sudoku, the Wave Function Collapse algorithm](https://www.youtube.com/watch?v=2SuvO4Gi7uY&ab_channel=MartinDonald) (video)
+
+
+[Twitter](https://twitter.com/Dahl_Frederik_)

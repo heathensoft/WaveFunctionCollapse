@@ -22,7 +22,7 @@ public class Example {
     
     public static void main(String[] args) throws IOException {
         // -------------------------------------------------------------------------------------
-        final String input_path = "img/Ruins.png";
+        final String input_path = "img/City.png";
         final int seed = (int)(System.currentTimeMillis());
         final int display_scale = 4;
         final int output_width = 256;

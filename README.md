@@ -43,7 +43,7 @@ A small amount of noise is introduced to cells' entropy (possibly better rng)
 ![rooms](https://github.com/heathensoft/WaveFunctionCollapse/blob/main/gif/wfc_rooms.gif?raw=true)
 ![flowers](https://github.com/heathensoft/WaveFunctionCollapse/blob/main/gif/wfc_flowers.gif?raw=true)
 ![rocks](https://github.com/heathensoft/WaveFunctionCollapse/blob/main/gif/wfc_rocks.gif?raw=true)
-
+![blob](https://github.com/heathensoft/WaveFunctionCollapse/blob/main/gif/wfc_blob.gif?raw=true)
 
 ### Test Example
 

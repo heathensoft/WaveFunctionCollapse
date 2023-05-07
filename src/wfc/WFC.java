@@ -87,7 +87,7 @@ public class WFC {
                     for (int c = 0; c < width; c++) {
                         Cell cell = new Cell(c, r, patterns);
                         cells[r][c] = cell;
-                        cell.introduce_noise_to_entropy(white_noise() * 0.0001f);
+                        cell.introduce_noise_to_entropy(white_noise() * 0.001f);
                         priority_queue.set(cell);
                     }
                 }
@@ -99,7 +99,7 @@ public class WFC {
                     for (int c = 0; c < width; c++) {
                         Cell cell = cells[r][c];
                         cell.reset(patterns);
-                        cell.introduce_noise_to_entropy(white_noise() * 0.0001f);
+                        cell.introduce_noise_to_entropy(white_noise() * 0.001f);
                         priority_queue.set(cell);
                     }
                 }
@@ -213,7 +213,7 @@ public class WFC {
                         S += w * Math.log(w);
                     } cell.set_entropy((float) (Math.log(W) - S / W));
                     // log(W) - (w1*log(w1) + w2*log(w2) + ... + wn*log(wn)) / W
-                    cell.introduce_noise_to_entropy(white_noise() * 0.0001f);
+                    cell.introduce_noise_to_entropy(white_noise() * 0.001f);
                 }
             } return true;
         } return false;

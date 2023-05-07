@@ -7,9 +7,15 @@ import java.util.Map;
  *
  * Binary heap without duplicates. Optimized for Pathfinding.
  *
- * If you only need common priority queue functionality
- * (storing and popping sorted items without the need to update their priority)
- * that allows duplicates, use the PriorityQueue. As the HeapSet is a much heavier Object.
+ * Note:    To Wave function collapse readers.
+ *          This is just my own take on priority queue.
+ *          It's all it is. The text below makes it seem more advanced
+ *          than it is. (I wrote it with A-star pathfinding in mind)
+ *
+ *
+ * If you only need trivial priority queue functionality
+ * (storing and popping sorted items without the need to update their priority and that allows duplicates),
+ * use the PriorityQueue. As the HeapSet is a much heavier Object.
  *
  * Nodes in the heap implement comparable, the comparable is meant to be "separated from
  * the Objects equal method". A node "a" can equal a node "b" and not be
